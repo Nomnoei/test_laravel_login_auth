@@ -14,7 +14,9 @@
                         </div>
                     @endif
                     <h3>Name : {{Auth::user()->name}} <br>
-                    Password : {{Auth::user()->password}}</h3>
+                    Password : {{Auth::user()->password}} <br>
+                    Type : {{Auth::user()->status}}
+                </h3>
                     You are logged in!
                 </div>
             </div>
