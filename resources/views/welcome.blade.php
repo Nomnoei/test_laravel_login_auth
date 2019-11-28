@@ -82,8 +82,10 @@
             <div class="content">
                 <div class="title m-b-md">
                     Laravel
-                </div>
 
+                </div>
+                  <p>อ้างอิง</p>
+                  <p>Login facebook : <a href="https://medium.com/ckartisan/laravel-5-facebook-login-tutorial-laravel-socialite-45d745128745">https://medium.com/ckartisan/laravel-5-facebook-login-tutorial-laravel-socialite-45d745128745</a></p>
                 <div class="links">
                     <a href="https://laravel.com/docs">Docs</a>
                     <a href="https://laracasts.com">Laracasts</a>

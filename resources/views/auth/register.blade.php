@@ -18,9 +18,9 @@
                                 <input id="name" type="text" class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required autocomplete="name" autofocus>
 
                                 @error('name')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
+                                <span class="invalid-feedback" role="alert">
+                                    <strong>{{ $message }}</strong>
+                                </span>
                                 @enderror
                             </div>
                         </div>
@@ -32,9 +32,9 @@
                                 <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email">
 
                                 @error('email')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
+                                <span class="invalid-feedback" role="alert">
+                                    <strong>{{ $message }}</strong>
+                                </span>
                                 @enderror
                             </div>
                         </div>
@@ -46,9 +46,9 @@
                                 <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="new-password">
 
                                 @error('password')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
+                                <span class="invalid-feedback" role="alert">
+                                    <strong>{{ $message }}</strong>
+                                </span>
                                 @enderror
                             </div>
                         </div>
@@ -70,6 +70,15 @@
                             </div>
                         </div>
                     </form>
+                    <hr />
+                    <p class="text-center" style="margin:20px;">หรือเข้าสู่ระบบด้วย</p>
+                    <div class="form-group">
+                        <div class="col-md-12 text-center">
+                            <a href="{{url('/')}}/login/facebook" class="btn btn-primary btn-facebook">
+                                <i class="fa fa-facebook"></i> &nbsp; Login with Facebook
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
